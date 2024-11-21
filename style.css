@@ -1,0 +1,55 @@
+body{
+    /*Tipografia*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*Controla la latura de cada linea de texto para mejorar la legibilidad*/
+    line-height: 1.5;
+}
+
+header{
+    background-color: #D8BFD8;
+    color: #200847;
+    /*Text-align solo funciona en elementos en bloque porque afecta al contenido dentro del bloque.
+    No funciona en elementos en línea porque estos ocupan solo el espacio necesario para su contenido*/
+    text-align: center;
+    height: 170px;
+
+}
+
+footer{
+    background-color: #a4e2db;
+}
+
+.menu{
+    list-style: none;
+}
+
+.enlace{
+    text-decoration: none;
+}
+
+.enlace:hover{
+    color: #200847;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.subtitle{
+    color: #200847;
+}
+
+.contact-button{
+    background-color: #200847;
+    color: #fbfbfc;
+    width: 100px;
+    height: 50px;
+    border: none;
+}
+
+.contact-button:active{
+    background-color: #1b7285;
+}
+
+#principal-title{
+    /*Selectores id: Usar con cuidado*/
+    text-decoration: underline;
+}
